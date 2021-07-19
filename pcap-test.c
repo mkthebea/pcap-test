@@ -57,7 +57,7 @@ void print_data(const u_char* packet, int totlen) {
         printf("\n[Data]\n\n");
     else {
         printf("\n[Data] ");
-        for(int i=0;i<7;i++)
+        for(int i=0;i<8;i++)
             printf("%.2x ", packet[54 + i]);
         printf("\n\n");
     }
